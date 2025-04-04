@@ -3,15 +3,11 @@ import CheckboxChecked from '../assets/checkbox-checked.svg';
 import CheckboxUnchecked from '../assets/checkbox-unchecked.svg';
 
 interface Props {
-  id: string;
   checked: boolean;
 }
 
 defineProps<Props>();
 
-const emit = defineEmits<{
-  toggle: [];
-}>();
 </script>
 
 <template>
